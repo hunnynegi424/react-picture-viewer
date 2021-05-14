@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-picture-viewer/static/css/main.3d2da423.chunk.css",
+    "main.js": "/react-picture-viewer/static/js/main.d7e6120e.chunk.js",
+    "main.js.map": "/react-picture-viewer/static/js/main.d7e6120e.chunk.js.map",
+    "runtime-main.js": "/react-picture-viewer/static/js/runtime-main.07932a56.js",
+    "runtime-main.js.map": "/react-picture-viewer/static/js/runtime-main.07932a56.js.map",
+    "static/js/2.3bfdb7bb.chunk.js": "/react-picture-viewer/static/js/2.3bfdb7bb.chunk.js",
+    "static/js/2.3bfdb7bb.chunk.js.map": "/react-picture-viewer/static/js/2.3bfdb7bb.chunk.js.map",
+    "index.html": "/react-picture-viewer/index.html",
+    "static/css/main.3d2da423.chunk.css.map": "/react-picture-viewer/static/css/main.3d2da423.chunk.css.map",
+    "static/js/2.3bfdb7bb.chunk.js.LICENSE.txt": "/react-picture-viewer/static/js/2.3bfdb7bb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07932a56.js",
+    "static/js/2.3bfdb7bb.chunk.js",
+    "static/css/main.3d2da423.chunk.css",
+    "static/js/main.d7e6120e.chunk.js"
+  ]
+}
