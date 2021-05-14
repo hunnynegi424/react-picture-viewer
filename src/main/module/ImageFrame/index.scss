@@ -1,0 +1,69 @@
+.prev_img_, .current_img_, .next_img_, .prev_img_toggled, .next_img_toggled, .current_img_prevtoggled, .current_img_nexttoggled {
+  width: 100%;
+  position: relative;
+  img {
+    max-height: 100vh;
+    user-select: none;
+  }
+}
+
+.prev_img_, .next_img_ {
+  display: none;
+}
+
+.current_img_ {
+  overflow: hidden;
+}
+
+// animation classes
+
+.prev_img_toggled {
+  animation: swipeInPrev 300ms ease-in;
+}
+.current_img_prevtoggled {
+  animation: swipeOutCurrentPrev 300ms ease-out;
+}
+
+.next_img_toggled {
+  animation: swipeInNext 300ms ease-in;
+}
+
+.current_img_nexttoggled {
+  animation: swipeOutCurrentNext 300ms ease-out;
+}
+
+@keyframes swipeOutCurrentPrev {
+  0% {
+    left: 0px
+  }
+  100% {
+    left: 1000px
+  }
+}
+
+@keyframes swipeInPrev {
+  0% {
+    right: 1000px
+  }
+  100% {
+    right: 0px
+  }
+}
+
+@keyframes swipeOutCurrentNext {
+  0% {
+    right: 0px
+  }
+  100% {
+    right: 1000px
+  }
+}
+
+@keyframes swipeInNext {
+  0% {
+    left: 1000px
+  }
+  100% {
+    left: 0px
+  }
+}

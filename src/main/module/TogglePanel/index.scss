@@ -1,0 +1,40 @@
+.panel_container {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  user-select: none;
+  .left_toggle, .right_toggle {
+    background-color: rgb(37, 37, 37);
+    width: 10%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    &:hover {
+    background-color: rgb(43, 42, 42);
+    }
+  }
+  .image_container {
+    width: 80%;
+    background-color: rgb(37, 37, 37);
+    display: inline-flex;
+    align-items: center;
+  }
+  .image_counter {
+    width: 100%;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      background-color: rgba(43, 42, 42, 0.4);
+    }
+  }
+}
